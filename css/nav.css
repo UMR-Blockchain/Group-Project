@@ -1,0 +1,30 @@
+
+/* here * is used to give style to all the elements */
+*{ 
+  margin :0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'roboto',sans-serif;
+}
+
+.navbar{
+    /* sticky means navbar will stick to top */
+    position: sticky;
+    top:0;
+    left: 0;
+    width: 100%;
+    background-color: #b760d1;
+    /* set z-index to highest value so that navbar is on top of all other elements */
+    z-index: 9;
+}
+
+.nav{
+    padding: 10px 10vw;
+    /*using flex for space between logo and search box */
+    display: flex;
+    justify-content: space-between;
+}
+
+.brand-logo{
+    height: 60px;
+}
