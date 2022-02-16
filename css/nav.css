@@ -88,3 +88,13 @@
     border-top: 1px solid #d1d1d1;
 
 }
+
+.link{
+    text-transform: capitalize;
+    padding: 0 10px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #0f0e0e;
+    opacity: 0.9;
+    transition: .5s;
+}
