@@ -40,7 +40,7 @@ const SearchContainer = styled.div`
 
 const Input = styled.input`
     border: none;
-    background-color: #174c5a;
+    background-color: transparent;
 `
 
 const Center = styled.div` 
