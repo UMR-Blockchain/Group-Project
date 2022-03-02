@@ -9,4 +9,7 @@ npm i styled-components --> to use the styled components feature of react
 
 npm i @material-ui/core @material-ui/icons --> to use material ui icons in the website
 
+npm add express mongoose dotenv nodemon --> to use express mongodb etc.
+
 (Open the group-project folder in vs code. Through vs code, open the terminal and run the above commands one by one)
+
