@@ -1,0 +1,26 @@
+{
+  "name": "ecommerceapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.4.1",
+    "mongoose": "^6.2.7",
+    "nodemon": "^2.0.15",
+    "react-stripe-checkout": "^2.6.3",
+    "strip": "^3.0.0",
+    "stripe": "^8.209.0"
+  },
+  "description": "1. npm init -y\r 2. npm i express mongoose dotenv nodemon\r # Database Deployment on MongoDB\r 1. go to : https://www.mongodb.com/cloud-1\r 2. Create a free cluster \r 3. Create your organization (if using first time) \r 4. Create a user in Database Access \r 5. Go to network Access and add your IP Address\r 6.",
+  "devDependencies": {}
+}
