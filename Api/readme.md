@@ -17,6 +17,6 @@ npm install stripe --save
 # Complete Setup of MongoDb
 1. GO TO  https://www.mongodb.com/try/download/community
 2. Download the msi file from there and run installation commands
-3. add the mongodb path to encironment variables
+3. add the mongodb path to environment variables
 
 
