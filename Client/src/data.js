@@ -1,23 +1,26 @@
 export const sliderItems = [
     {
       id: 1,
-      img: "https://images.pexels.com/photos/10230678/pexels-photo-10230678.jpeg?cs=srgb&dl=pexels-amina-10230678.jpg&fm=jpg",
-      title: "SUMMER SALE",
-      desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
+      img: "https://images.pexels.com/photos/9475326/pexels-photo-9475326.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      title: "PERSONAL CARE PRODUCTS",
+      desc: "GET THE GREATEST DEALS ON PERSONAL CARE PRODUCTS.",
+      cat:"Personal Care",
       bg: "cfc0ab",
     },
     {
       id: 2,
-      img: "https://images.pexels.com/photos/6995878/pexels-photo-6995878.jpeg?cs=srgb&dl=pexels-alena-shekhovtcova-6995878.jpg&fm=jpg",
-      title: "AUTUMN COLLECTION",
-      desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
+      img: "https://images.pexels.com/photos/6303706/pexels-photo-6303706.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      title: "DO IT YOURSELF",
+      desc: "KEEP A CHECK ON YOUR HEALTH WITH THESE PRODUCTS, AT THE COMFORTS OF YOUR HOME.",
+      cat:"Healthcare devices",
       bg: "c8d2d3",
     },
     {
       id: 3,
-      img: "https://images.pexels.com/photos/7690953/pexels-photo-7690953.jpeg?cs=srgb&dl=pexels-monstera-7690953.jpg&fm=jpg",
-      title: "LOUNGEWEAR LOVE",
-      desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
+      img: "https://images.pexels.com/photos/775032/pexels-photo-775032.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      title: "HEALTH FOOD AND DRINKS",
+      desc: "DON'T COMPROMISE ON THE QUALITY OF YOUR INTAKE.",
+      cat: "Health food and drinks",
       bg: "c1c2c6",
     },
   ];
@@ -25,18 +28,21 @@ export const sliderItems = [
   export const categories = [
     {
       id: 1,
-      img: "https://images.pexels.com/photos/5886041/pexels-photo-5886041.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      title: "SHIRT STYLE!",
+      img: "https://images.pexels.com/photos/4202924/pexels-photo-4202924.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      title: "PERSONAL CARE",
+      cat:"Personal Care"
     },
     {
       id: 2,
-      img: "https://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      title: "LOUNGEWEAR LOVE",
+      img: "https://images.pexels.com/photos/255501/pexels-photo-255501.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      title: "HEALTHY INTAKES",
+      cat:"Health food and drinks"
     },
     {
       id: 3,
-      img: "https://images.pexels.com/photos/5480696/pexels-photo-5480696.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      title: "LIGHT JACKETS",
+      img: "https://images.pexels.com/photos/3762879/pexels-photo-3762879.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      title: "SKIN CARE",
+      cat:"Skin care"
     },
   ];
 
@@ -47,7 +53,7 @@ export const sliderItems = [
     },
     {
       id:2,
-      img:"https://cdn.shopify.com/s/files/1/0101/4832/products/Angela_Natural_Tee.png?v=1606780388",
+      img:"https://www.prada.com/content/dam/pradanux_products/S/SPH/SPH135/1T2YF0161/SPH135_1T2Y_F0161_S_212_SLF.png",
     },
     {
       id:3,

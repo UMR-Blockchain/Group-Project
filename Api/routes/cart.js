@@ -8,7 +8,6 @@ const {
 const router = require("express").Router();
 
 //CREATE
-
 router.post("/", verifyToken, async (req, res) => {
   const newCart = new Cart(req.body);
 
@@ -56,8 +55,7 @@ router.get("/find/:userId", verifyTokenAndAuthorization, async (req, res) => {
   }
 });
 
-// //GET ALL
-
+//GET ALL
 router.get("/", verifyTokenAndAdmin, async (req, res) => {
   try {
     const carts = await Cart.find();

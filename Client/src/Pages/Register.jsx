@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { mobile } from "../responsive";
+import { Link } from "react-router-dom";
 
 const Container = styled.div`
   width: 100vw;
@@ -8,7 +9,7 @@ const Container = styled.div`
       rgba(255, 255, 255, 0.5),
       rgba(255, 255, 255, 0.5)
     ),
-    url("https://images.pexels.com/photos/6984661/pexels-photo-6984661.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
+    url("https://images.pexels.com/photos/4397831/pexels-photo-4397831.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")
       center;
   background-size: cover;
   display: flex;
@@ -56,6 +57,9 @@ const Button = styled.button`
 `;
 
 const Register = () => {
+  const handleClick = (e) => {
+    alert("User has been Registered successfully!")
+  };
   return (
     <Container>
       <Wrapper>
@@ -65,13 +69,13 @@ const Register = () => {
           <Input placeholder="last name" />
           <Input placeholder="username" />
           <Input placeholder="email" />
-          <Input placeholder="password" />
-          <Input placeholder="confirm password" />
+          <Input placeholder="password" type="password"/>
+          <Input placeholder="confirm password" type="password"/>
           <Agreement>
             By creating an account, I consent to the processing of my personal
             data in accordance with the <b>PRIVACY POLICY</b>
           </Agreement>
-          <Button>CREATE</Button>
+          <Link to="/"><Button onClick={handleClick} >CREATE</Button></Link>
         </Form>
       </Wrapper>
     </Container>

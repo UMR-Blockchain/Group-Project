@@ -10,6 +10,7 @@ import {
   import styled from "styled-components";
   import { mobile } from "../responsive";
   import logo from '../Images/Logo-footer.png'
+  import { Link } from "react-router-dom";
   
   const Container = styled.div`
     display: flex;
@@ -92,7 +93,7 @@ import {
     return (
       <Container>
         <Left>
-          <Logo src={logo}/>
+        <Link to="/"><Logo src={logo} /></Link>
           <Desc>
             There are many variations of passages of Lorem Ipsum available, but
             the majority have suffered alteration in some form, by injected
@@ -118,12 +119,12 @@ import {
           <List>
             <ListItem>Home</ListItem>
             <ListItem>Cart</ListItem>
-            <ListItem>Man Fashion</ListItem>
-            <ListItem>Woman Fashion</ListItem>
-            <ListItem>Accessories</ListItem>
+            <ListItem>Health Care</ListItem>
+            <ListItem>Skin Care</ListItem>
+            <ListItem>Personal Care</ListItem>
+            <ListItem>Health Devices</ListItem>
             <ListItem>My Account</ListItem>
             <ListItem>Order Tracking</ListItem>
-            <ListItem>Wishlist</ListItem>
             <ListItem>Wishlist</ListItem>
             <ListItem>Terms</ListItem>
           </List>
